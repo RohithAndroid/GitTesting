@@ -42,9 +42,9 @@ jobs:
 
 
 
-  
+
   instrumentation:
-    needs: [ lint ]
+    needs: [ unit-test ]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
